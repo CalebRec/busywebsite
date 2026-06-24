@@ -1,13 +1,61 @@
-@font-face {
-  font-family: 'Jost';
-  src: url('/path/to/Jost-400-Book.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
+/* Font setup */
+body {
+  margin: 0;
+  font-family: 'Jost', 'Roboto', sans-serif;
+  background: url('https://cdn.discordapp.com/attachments/1515654407642157227/1519147304689467503/Untitled143_20260623070255.png?ex=6a3c7fad&is=6a3b2e2d&hm=c825ff64d3e01dca3ca1330fc05cafecc6e11576fe1b1edc19771661c449cf06&') repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-@font-face {
-  font-family: 'Jost';
-  src: url('/path/to/Jost-700-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+/* Header */
+header {
+  margin-top: 5vh;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.tagline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Main content */
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 5vh auto;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 2rem;
+  backdrop-filter: blur(8px);
+}
+
+h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
 }
